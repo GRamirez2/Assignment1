@@ -1,0 +1,358 @@
+html{
+	height: 100%
+}
+.container {
+
+	
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	margin: 0px auto;
+	padding: 0px 0px;
+	width: 960px;
+
+}
+
+body{
+
+	margin:0px;
+	padding: 0px;
+	height: 100%
+}
+
+
+a{
+    
+    color: #777777;
+    text-decoration: none;
+
+}
+
+
+#header{
+
+	
+	height: 60px;
+	background-color: #ffffff;
+	border-bottom: solid 1px #cccccc;
+	margin: 0px;
+	padding: 0px;
+
+}
+
+h2,h3,h4 {
+
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	margin:0px;
+	padding-top: 15px;
+	
+}
+
+h1{
+
+	font-size: 28px;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	margin:0px;
+	padding-top: 15px;
+	
+}
+
+h2 {
+
+	font-size: 20px;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	margin:0px;
+	padding-top: 15px;
+	
+}
+
+
+#name{
+
+	
+	float: left;
+	background-color: #4aaaa5;
+	color: #ffffff;
+	height: 60px;
+	padding: 0px 20px 0px 20px;
+
+	
+}
+
+#linkA{
+
+	float: right;
+	height: 17px;
+	padding: 0px 10px;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	color: #777777;
+	border-right: solid #777777 .5px ;
+	padding-right: 10px;
+	margin-top: 20px;
+
+}
+#linkP{
+
+	float: right;
+	height: 17px;
+	padding: 0px 10px;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	color: #777777;
+	border-right: solid #777777 .5px ;
+	margin-top: 20px;
+
+}
+
+#linkC{
+
+	float: right;
+	height: 17px;
+	padding-left: 10px;
+	padding-right: 10px;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	color: #777777;
+	margin-top: 20px;c
+}
+
+
+
+#center{
+
+	overflow: auto;
+	background-image: url(../images/confectionary.jpg);
+	margin: 0px;
+	padding-bottom: 90px;
+	height: 100%
+
+	
+}
+
+
+
+.tealtitles{
+
+	color: #4aaaa5;
+	padding-bottom: 15px;
+	border-bottom: solid 1px #cccccc;
+	margin-bottom: 15px;
+}
+
+
+#bioimage {
+
+	float:left;
+	margin-right: 10px;
+
+}
+
+#icons{
+
+	float: left;
+	width: 70px;
+	margin-left: 5px;
+}
+
+#main,
+#sidebar{
+
+	background-color: #ffffff;
+	padding: 0px 15px 10px 15px;
+	border-style: solid;
+	border-color: #cccccc;
+	border-width: .5px;
+	border-radius: 5px;
+
+
+}
+
+#main{
+
+	width: 610px;
+	height: 100%;
+	margin-top: 30px;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	float: left
+
+
+}
+
+#lh24{
+
+	line-height: 1.5;
+}
+
+#sidebar{
+
+	width: 230px;
+	height: auto;
+	margin-right: 5px;
+	margin-top: 30px;
+	float: right;
+}
+
+#portfolio1,
+#portfolio2,
+#portfolio3,
+#portfolio4,
+#portfolio5{
+
+	display: inline-block;
+	width: 48%;
+	height: 40px;
+	margin:0;
+	background-color: #4aaaa5;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	text-align: center;
+	line-height: 40px;
+	color: #ffffff;
+	position:relative;
+	opacity: 0.75;
+
+
+}
+
+#portfolio1{
+
+	top: -380px;
+	left: -48%;
+	
+}
+
+#portfolio2{
+
+	top: -420px;
+	right: -4%;
+	
+}
+
+#portfolio3{
+
+	top: -148px;
+	left: -48%;
+	
+}
+#portfolio4{
+
+	top: -189px;
+	right: -4%;
+	
+}
+
+#portfolio5{
+
+	top: 85px;
+	left: -48%;
+	
+}
+
+input{
+	width:98%;
+	font-size:14px;
+	color:#777777;
+	padding: 5px 0px 5px 10px;
+}
+
+
+.formtext{
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	font-size: 16px;
+	color: #777777;
+	line-height:2;
+}
+
+textarea{
+
+	width: 98%
+	height: 50px;
+
+}
+
+
+.button{
+
+	width: 90px;
+	border-radius: 10px;
+	background-color: #4aaaa5;
+	color: #ffffff;
+	text-align: center;
+	line-height: 30px;
+	margin-top: 15px;
+}
+
+#footer{
+
+	background-color: #777777;
+	line-height: 60px;
+	position: fixed;
+	border-top: solid 5px #4aaaa5;
+	bottom: 0;
+	width: 100%;
+
+
+}
+
+.footertext{
+
+	text-align: center;
+	color: #bbb
+	
+}
+
+
+/*Begin 980 resizing*/
+@media screen and (max-width: 980px){
+
+	
+	#header{
+		background-color: blue;
+	}
+}
+/*End 980 resizing*/
+
+/*Begin 768 resizing*/
+@media screen and (max-width: 768px){
+
+	
+	#header{
+		width: 768px;
+		background-color: red;
+	}
+
+	.containter{
+		width: 200px;
+		margin: 0px 0px 0px 0px;
+	
+	}
+
+	#center{
+
+		width: 768px;
+	}
+
+	#main{
+		width: 700px;
+		margin-top: 20px;
+		margin-left: 24px;
+		height: auto;
+	}
+
+	#sidebar{
+		/*clear: left;*/
+		float: left;
+		width: 700px;
+		margin-top: 20px;
+		margin-left: 24px;
+	}
+
+	
+
+
+}/*end of 768 width adjustments*/
+
+/*Begin 640 resizing*/
+@media screen and (max-width: 640px){
+	#header{
+		background: green;
+	}
+
+
+}/*end of 640 width adjustments*/
+
