@@ -298,7 +298,7 @@ textarea{
 
 
 /*Begin 980 resizing*/
-@media screen and (max-width: 980px){
+@media screen and (max-width: 980px) and (min-width: 769px){
 
 	
 	#header{
@@ -312,12 +312,16 @@ textarea{
 
 	
 	#header{
-		width: 768px;
+	
 		background-color: red;
 	}
 
-	.containter{
-		width: 200px;
+	.links{
+		margin-right: 3%;
+	}
+
+	.container{
+		width: 768px;
 		margin: 0px 0px 0px 0px;
 	
 	}
@@ -328,18 +332,16 @@ textarea{
 	}
 
 	#main{
-		width: 700px;
-		margin-top: 20px;
-		margin-left: 24px;
+		width: 90%;
+		margin: 2% 2%;
 		height: auto;
 	}
 
 	#sidebar{
-		/*clear: left;*/
+	
 		float: left;
-		width: 700px;
-		margin-top: 20px;
-		margin-left: 24px;
+		width: 90%;
+		margin: 2% 2%;
 	}
 
 	
@@ -349,10 +351,38 @@ textarea{
 
 /*Begin 640 resizing*/
 @media screen and (max-width: 640px){
+	
+	* {
+  box-sizing: border-box;
+	}
+
 	#header{
 		background: green;
 	}
 
+	
+	#center{
+
+		width: 640px;
+	}
+	.container{
+		width: 640px;
+		margin: 0px 0px 0px 0px;
+
+	#main{
+		width: 600px;
+		margin-top: 20px;
+		margin-left: 20px;
+		height: auto;
+	}
+
+	#sidebar{
+	
+		float: left;
+		width: 600px;
+		margin-top: 20px;
+		margin-left: 20px;
+	}
 
 }/*end of 640 width adjustments*/
 
