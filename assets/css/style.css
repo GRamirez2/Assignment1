@@ -326,13 +326,13 @@ textarea{
 
 
 /*Begin 980 resizing*/
-@media screen and (min-width: 769px) and (max-width: 980px) {
+/*@media screen and (min-width: 769px) and (max-width: 980px) {*/
 
 	
 	/*#header{*/
-		background-color: yellow;
-	}
-}
+		/*background-color: yellow;*/
+	/*}*/
+/*}*/
 /*End 980 resizing*/
 
 /*Begin 768 resizing*/
