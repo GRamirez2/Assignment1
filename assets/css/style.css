@@ -340,7 +340,7 @@ textarea{
 
 	
 	#header{
-		background-color: red;
+		/*background-color: red;*/
 	}
 
 	#name{
@@ -361,11 +361,11 @@ textarea{
 		overflow: auto;
 		width: 768px;
 		height: auto;
-		padding-bottom: 300px;
+		padding-bottom: 100px;
 			}
 
 	.main{
-		width: 90%;
+		width: 700px;
 		margin: 20px 20px;
 		height: auto;
 	}
@@ -407,7 +407,7 @@ textarea{
 	#sidebar{
 	
 		float: left;
-		width: 90%;
+		width: 700px;
 		margin: 0px 20px;
 	}
 
@@ -420,11 +420,12 @@ textarea{
 	
 
 	#header{
-		background: green;
+		/*background: green;*/
+		width:680px;
 	}
 
 	#name{
-		width: 100%;
+		width: 640px;
 		text-align: center;
 		margin: 0px 0px;
 	}
@@ -467,21 +468,20 @@ textarea{
 	}
 	
 	#center{
-		overflow: auto;
-		width: 640px;
+		/*overflow: auto;*/
+		width: 680px;
 		padding-bottom: 75px;
 		height: auto;
 
 			}
 	.container{
-		width: 640px;
-		padding: 0px;
-		margin:0px;
+		width: 680px;
+		margin: 0px 0px;
 
 	}
 
 	.main{
-		width: 590px;
+		width: 630px;
 		margin: 15px 10px;
 		padding-bottom: 20px;
 	}
@@ -558,9 +558,9 @@ textarea{
 
 
 	#sidebar{
-		float: left;
-		width: 590px;
-		margin: 0px 10px;
+		width: 630px;
+		margin: 5px 10px;
+
 	}
 
 }/*end of 640 width adjustments*/
